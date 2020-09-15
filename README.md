@@ -1,5 +1,5 @@
 # BeautifulAlgorithms.jl
-[![Build Status](https://travis-ci.com/mossr/BeautifulAlgorithms.jl.svg?branch=master)](https://travis-ci.com/mossr/BeautifulAlgorithms.jl) [![codecov](https://codecov.io/gh/mossr/BeautifulAlgorithms.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/mossr/BeautifulAlgorithms.jl)
+[![Build Status](https://travis-ci.com/mossr/BeautifulAlgorithms.jl.svg?token=8yzdQtHKxKRkR2wz3MFH&branch=master)](https://travis-ci.com/mossr/BeautifulAlgorithms.jl) [![codecov](https://codecov.io/github/mossr/BeautifulAlgorithms.jl/coverage.svg?branch=master&token=LY7M3JIN56)](https://codecov.io/gh/mossr/BeautifulAlgorithms.jl)
 
 Consice algorithms written in Julia and formatted with [Carbon](https://carbon.now.sh/).
 
