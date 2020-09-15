@@ -1,5 +1,5 @@
 name = "BeautifulAlgorithms"
-uuid = "5b78ae71-34ac-43e0-8223-281144ab376d"
+uuid = "00354967-3942-5f87-bd19-a45bc2403154"
 authors = ["Robert Moss <mossr@cs.stanford.edu>"]
 version = "0.1.0"
 
@@ -15,5 +15,5 @@ LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
-[target]
+[targets]
 test = ["Distributions", "LinearAlgebra", "Random", "Test"]

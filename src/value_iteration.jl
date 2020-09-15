@@ -15,4 +15,4 @@ function value_iteration(𝒫::MDP, k_max)
     return U
 end
 
-policy(s; 𝒫, U) = findmax(a->lookahead(𝒫, U, s, a), 𝒫.𝒜)
+policy(s; 𝒫, U) = findmax([lookahead(𝒫, U, s, a) for a in 𝒫.𝒜])[end]

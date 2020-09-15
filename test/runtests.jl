@@ -3,6 +3,7 @@ using BeautifulAlgorithms
 
 
 @testset "Cross-Entropy Method" begin
+    using Distributions
     import Random: seed!
     import LinearAlgebra: norm
     seed!(0)
@@ -13,7 +14,7 @@ using BeautifulAlgorithms
     k_max = 10
     P = cross_entropy_method(f, P, k_max)
 
-    @test P.μ ≈ [-6.13623e-7, -1.37216e-6] 
+    @test isapprox(P.μ, [-6.13623e-7, -1.37216e-6], atol=1e-5)
 end
 
 
