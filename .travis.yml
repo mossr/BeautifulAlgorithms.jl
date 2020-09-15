@@ -11,12 +11,6 @@ julia:
 notifications:
   email: false
 
-addons:
-  apt:
-    packages:
-      - python-matplotlib
-      - python3-matplotlib
-
 script:
   - julia -e 'using Pkg; Pkg.build(); Pkg.test(coverage=true)'
 after_success:
