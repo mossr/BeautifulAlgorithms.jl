@@ -9,8 +9,8 @@ include("stochastic_gradient_descent.jl")
 export neural_network, σ, ReLU
 include("neural_network.jl")
 
-export nearest_neighbors, dist_manhattan, dist_euclidean, dist_supremum
-include("nearest_neighbors.jl")
+export nearest_neighbor, dist_manhattan, dist_euclidean, dist_supremum
+include("nearest_neighbor.jl")
 
 export cross_entropy_method
 include("cross_entropy_method.jl")
