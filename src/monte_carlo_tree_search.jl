@@ -1,7 +1,7 @@
-struct MDPᵣ γ; 𝒮; 𝒜; T; R; G end
+struct MDPᴳ γ; 𝒮; 𝒜; T; R; G end
 
 struct MonteCarloTreeSearch
-    𝒫::MDPᵣ # problem with generative model
+    𝒫::MDPᴳ # problem with generative model
     N # visit counts
     Q # action value estimates
     d # depth
