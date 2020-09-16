@@ -3,7 +3,7 @@
 
 Consice algorithms written in Julia and formatted with [Carbon](https://carbon.now.sh/).
 
-Algorithms for machine learning, optimization, reinforcement learning, online planning, and decision making under uncertainty. All working and self-contained implementations, refer to the [test cases](./test/runtests.jl).
+Algorithms for machine learning, optimization, reinforcement learning, online planning, and decision making under uncertainty. All implementations are working and self-contained; refer to the [test cases](./test/).
 
 ```julia
 ] add http://github.com/mossr/BeautifulAlgorithms.jl
@@ -23,6 +23,10 @@ Algorithms for machine learning, optimization, reinforcement learning, online pl
 
 ## Nearest Neighbor
 <p align="center"><a href="./src/nearest_neighbor.jl"> <img src="./img/nearest_neighbor.svg"></a></p>
+
+
+## Thompson Sampling
+<p align="center"><a href="./src/thompson_sampling.jl"> <img src="./img/thompson_sampling.svg"></a></p>
 
 
 ## Cross-Entropy Method
