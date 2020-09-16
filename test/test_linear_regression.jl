@@ -4,5 +4,5 @@
     y = map(last, 𝒟)
 
     f = linear_regression(X,y)
-    @test f(3) == 3.2
+    @test f(3) ≈ 3.2
 end
