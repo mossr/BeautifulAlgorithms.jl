@@ -88,6 +88,10 @@ end
 
     @test test_neural_network(σ) ≈ -0.013563772681566943
     @test test_neural_network(ReLU) ≈ -3.1715728752538093
+
+    @test σ(0) == 0.5
+    @test ReLU(1) == 1
+    @test ReLU(-1) == 0
 end
 
 
