@@ -12,12 +12,17 @@ Algorithms for machine learning, optimization, reinforcement learning, online pl
 ## Gradient Descent
 <p align="center"><a href="./src/gradient_descent.jl"> <img src="./img/gradient_descent.svg"></a></p>
 
+
 ## Stochastic Gradient Descent
 <p align="center"><a href="./src/stochastic_gradient_descent.jl"> <img src="./img/stochastic_gradient_descent.svg"></a></p>
 
 
 ## One-Layer Neural Network
 <p align="center"><a href="./src/neural_network.jl"> <img src="./img/neural_network.svg"></a></p>
+
+
+## Nearest Neighbor
+<p align="center"><a href="./src/nearest_neighbor.jl"> <img src="./img/nearest_neighbor.svg"></a></p>
 
 
 ## Cross-Entropy Method

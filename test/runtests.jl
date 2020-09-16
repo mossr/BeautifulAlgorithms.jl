@@ -78,20 +78,21 @@ end
 
 
 @testset "One-Layer Neural Network" begin
-    function test_neural_network(x=2)
+    function test_neural_network(g=σ)
+        x = 2
         φ = x -> [x, x^2, sqrt(abs(x))]
         𝐕 = [[2,-1,3], [3,0,1]]
         𝐰 = [+1, -1]
-        𝐠 = σ
-        neural_network(x, 𝐕, 𝐰, φ, 𝐠)
+        neural_network(x, 𝐕, 𝐰, φ, g)
     end
 
-    @test test_neural_network() ≈ -0.013563772681566943
+    @test test_neural_network(σ) ≈ -0.013563772681566943
+    @test test_neural_network(ReLU) ≈ -3.1715728752538093
 end
 
 
-@testset "Nearest Neighbors" begin
-    function test_nearest_neighbors()
+@testset "Nearest Neighbor" begin
+    function test_nearest_neighbor()
         𝒟train = [([5,9],6),
                   ([5,5],7),
                   ([7,5],8),
@@ -100,17 +101,22 @@ end
 
         points = [[6.1,6.5], [9,6.5]]
 
-        neighbors_manhattan = [nearest_neighbors(p, φ, 𝒟train, dist_manhattan) for p in points]
-        @test neighbors_manhattan == [8, 10]
+        neighbor_manhattan = [nearest_neighbor(p, φ, 𝒟train, dist_manhattan) for p in points]
+        @test neighbor_manhattan == [8, 10]
 
-        neighbors_euclidean = [nearest_neighbors(p, φ, 𝒟train, dist_euclidean) for p in points]
-        @test neighbors_euclidean == [8, 8]
+        neighbor_euclidean = [nearest_neighbor(p, φ, 𝒟train, dist_euclidean) for p in points]
+        @test neighbor_euclidean == [8, 8]
 
-        neighbors_supremum = [nearest_neighbors(p, φ, 𝒟train, dist_supremum) for p in points]
-        @test neighbors_supremum == [7, 8]
+        neighbor_supremum = [nearest_neighbor(p, φ, 𝒟train, dist_supremum) for p in points]
+        @test neighbor_supremum == [7, 8]
+
+        @test nearest_neighbor(0, x->x, [(0,0)], dist_manhattan) == 0
+        @test dist_manhattan([0,0], [3,3]) == 6.0
+        @test dist_euclidean([0,0], [3,3]) ≈ 4.242640687119285
+        @test dist_supremum([0,0], [3,3]) == 3.0
     end
 
-    test_nearest_neighbors()
+    test_nearest_neighbor()
 end
 
 
