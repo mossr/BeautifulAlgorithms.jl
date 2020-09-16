@@ -2,6 +2,118 @@ using Test
 using BeautifulAlgorithms
 
 
+@testset "Gradient Descent" begin
+    using Statistics
+    using LinearAlgebra
+
+    mutable struct Decay i end
+    Base.:*(δη::Decay, x) = x/sqrt(δη.i+=1)
+
+    loss_squared(x, y, 𝐰, φ) = (𝐰⋅φ(x) - y)^2
+    mean_loss(𝐰, 𝒟train, φ, loss) = mean(loss(x, y, 𝐰, φ) for (x,y) ∈ 𝒟train)
+
+    """
+    Single-dimensional training input data.
+    """
+    function test_gradient_descent()
+        𝒟train = [(3,4), (-1,3), (-1,0)]
+        𝐰_opt = gradient_descent(𝒟train, x->x)
+        y_opt = mean_loss(𝐰_opt, 𝒟train, x->x, loss_squared)
+        return (𝐰_opt, y_opt)
+    end
+
+    """
+    Decay learning rate η.
+    """
+    function test_gradient_descent_decay(T)
+        # Decay learning rate
+        𝒟train = [(3,4), (-1,3), (-1,0)]
+        𝐰_opt = gradient_descent(𝒟train, x->x; η=Decay(0), T=T)
+        y_opt = mean_loss(𝐰_opt, 𝒟train, x->x, loss_squared)
+        return (𝐰_opt, y_opt)
+    end
+
+    """
+    Multi-dimensional training data input.
+    """
+    function test_gradient_descent_multi()
+        𝒟train = [([3,0.7],4), ([-1,0.3],3), ([-1,-3],0)]
+        𝐰_opt = gradient_descent(𝒟train, x->x)
+        y_opt = mean_loss(𝐰_opt, 𝒟train, x->x, loss_squared)
+        return (𝐰_opt, y_opt)
+    end
+
+    𝐰, y = test_gradient_descent()
+    @test 𝐰 ≈ [0.8181818181818182]
+    @test y ≈ 5.878787878787879
+
+    𝐰, y = test_gradient_descent_decay(30)
+    @test 𝐰 ≈ [0.41794205540127405]
+    @test y ≈ 6.466158060393507
+
+    𝐰, y = test_gradient_descent_multi()
+    @test 𝐰 ≈ [0.8314306533883896, -0.03036191401505953]
+    @test y ≈ 5.876487733786738
+end
+
+
+@testset "Stochastic Gradeient Descent" begin
+    Base.:*(δη::Decay, x) = x/sqrt(δη.i+=1)
+
+    loss_squared(x, y, 𝐰, φ) = (𝐰⋅φ(x) - y)^2
+    mean_loss(𝐰, 𝒟train, φ, loss) = mean(loss(x, y, 𝐰, φ) for (x,y) ∈ 𝒟train)
+
+    function test_stochastic_gradient_descent()
+        𝒟train = [([3,0.7],4), ([-1,0.3],3), ([-1,-3],0)]
+        𝐰_opt = stochastic_gradient_descent(𝒟train, x->x; η=0.01)
+        y_opt = mean_loss(𝐰_opt, 𝒟train, x->x, loss_squared)
+        return (𝐰_opt, y_opt)
+    end
+
+    𝐰, y = test_stochastic_gradient_descent()
+
+    @test 𝐰 ≈ [0.8286227687981166, -0.07376395387093937]
+    @test y ≈ 5.882922020275335
+end
+
+
+@testset "One-Layer Neural Network" begin
+    function test_neural_network(x=2)
+        φ = x -> [x, x^2, sqrt(abs(x))]
+        𝐕 = [[2,-1,3], [3,0,1]]
+        𝐰 = [+1, -1]
+        𝐠 = σ
+        neural_network(x, 𝐕, 𝐰, φ, 𝐠)
+    end
+
+    @test test_neural_network() ≈ -0.013563772681566943
+end
+
+
+@testset "Nearest Neighbors" begin
+    function test_nearest_neighbors()
+        𝒟train = [([5,9],6),
+                  ([5,5],7),
+                  ([7,5],8),
+                  ([9,9],10)]
+        φ = x->x
+
+        points = [[6.1,6.5], [9,6.5]]
+
+        neighbors_manhattan = [nearest_neighbors(p, φ, 𝒟train, dist_manhattan) for p in points]
+        @test neighbors_manhattan == [8, 10]
+
+        neighbors_euclidean = [nearest_neighbors(p, φ, 𝒟train, dist_euclidean) for p in points]
+        @test neighbors_euclidean == [8, 8]
+
+        neighbors_supremum = [nearest_neighbors(p, φ, 𝒟train, dist_supremum) for p in points]
+        @test neighbors_supremum == [7, 8]
+    end
+
+    test_nearest_neighbors()
+end
+
+
 @testset "Cross-Entropy Method" begin
     using Distributions
     import Random: seed!
@@ -44,7 +156,7 @@ end
         r = R(s, a)
         return (s′, r)
     end
-    P = MDPG(0.95, 𝒮, 𝒜, T, R, G)
+    P = MDPᵣ(0.95, 𝒮, 𝒜, T, R, G)
 
     mcts = MonteCarloTreeSearch(P, Dict(), Dict(), 50, 1000, 1, s->rand(map(a->s+a, 𝒜)))
 

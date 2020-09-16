@@ -3,22 +3,36 @@
 
 Consice algorithms written in Julia and formatted with [Carbon](https://carbon.now.sh/).
 
-Algorithms for optimization, reinforcement learning, online planning, or decision making under uncertainty.
+Algorithms for machine learning, optimization, reinforcement learning, online planning, and decision making under uncertainty.
 
 ```julia
 ] add http://github.com/mossr/BeautifulAlgorithms.jl
 ```
 
+## Gradient Descent
+<p align="center"><a href="./src/gradient_descent.jl"> <img src="./img/gradient_descent.svg"></a></p>
+
+## Stochastic Gradient Descent
+<p align="center"><a href="./src/stochastic_gradient_descent.jl"> <img src="./img/stochastic_gradient_descent.svg"></a></p>
+
+
+## One-Layer Neural Network
+<p align="center"><a href="./src/neural_network.jl"> <img src="./img/neural_network.svg"></a></p>
+
+
 ## Cross-Entropy Method
 Mykel J. Kochenderfer and Tim A. Wheeler, *Algorithms for Optimization*, MIT Press, 2019.
-<a href="./src/cross_entropy_method.jl"> <img src="./img/cross-entropy-method.svg"></a>
+<p align="center"><a href="./src/cross_entropy_method.jl"> <img src="./img/cross_entropy_method.svg"></a></p>
 
 
 ## Value Iteration
 Mykel J. Kochenderfer, Tim A. Wheeler and Kyle H. Wray, *Algorithms for Decision Making*, Processing.
-<a href="./src/value_iteration.jl"> <img src="./img/value-iteration.svg"></a>
+<p align="center"><a href="./src/value_iteration.jl"> <img src="./img/value_iteration.svg"></a></p>
 
 
 ## Monte Carlo Tree Search
 Mykel J. Kochenderfer, Tim A. Wheeler and Kyle H. Wray, *Algorithms for Decision Making*, Processing.
-<a href="./src/monte_carlo_tree_search.jl"> <img src="./img/monte-carlo-tree-search.svg"></a>
+<p align="center"><a href="./src/monte_carlo_tree_search.jl"> <img src="./img/monte_carlo_tree_search.svg"></a></p>
+
+---
+Written by [Robert Moss](https://github.com/mossr).
