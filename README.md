@@ -9,6 +9,7 @@ Algorithms for machine learning, optimization, reinforcement learning, online pl
 ] add http://github.com/mossr/BeautifulAlgorithms.jl
 ```
 
+
 ## Gradient Descent
 <p align="center"><a href="./src/gradient_descent.jl"> <img src="./img/gradient_descent.svg"></a></p>
 
@@ -25,13 +26,23 @@ Algorithms for machine learning, optimization, reinforcement learning, online pl
 <p align="center"><a href="./src/nearest_neighbor.jl"> <img src="./img/nearest_neighbor.svg"></a></p>
 
 
-## Thompson Sampling
-<p align="center"><a href="./src/thompson_sampling.jl"> <img src="./img/thompson_sampling.svg"></a></p>
+## Linear Regression
+Mykel J. Kochenderfer and Tim A. Wheeler, *Algorithms for Optimization*, MIT Press, 2019.
+<p align="center"><a href="./src/linear_regression.jl"> <img src="./img/linear_regression.svg"></a></p>
+
+
+## Radial Basis Regression
+Mykel J. Kochenderfer and Tim A. Wheeler, *Algorithms for Optimization*, MIT Press, 2019.
+<p align="center"><a href="./src/radial_basis_regression.jl"> <img src="./img/radial_basis_regression.svg"></a></p>
 
 
 ## Cross-Entropy Method
 Mykel J. Kochenderfer and Tim A. Wheeler, *Algorithms for Optimization*, MIT Press, 2019.
 <p align="center"><a href="./src/cross_entropy_method.jl"> <img src="./img/cross_entropy_method.svg"></a></p>
+
+
+## Thompson Sampling
+<p align="center"><a href="./src/thompson_sampling.jl"> <img src="./img/thompson_sampling.svg"></a></p>
 
 
 ## Value Iteration
