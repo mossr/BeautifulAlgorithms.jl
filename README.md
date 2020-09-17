@@ -18,7 +18,7 @@ Algorithms for machine learning, optimization, reinforcement learning, online pl
 <p align="center"><a href="./src/stochastic_gradient_descent.jl"> <img src="./img/stochastic_gradient_descent.svg"></a></p>
 
 
-## Single-layer neural network
+## Two-layer neural network
 <p align="center"><a href="./src/neural_network.jl"> <img src="./img/neural_network.svg"></a></p>
 
 
