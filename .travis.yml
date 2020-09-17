@@ -15,3 +15,4 @@ script:
   - julia -e 'using Pkg; Pkg.build(); Pkg.test(coverage=true)'
 after_success:
   - julia -e 'using Pkg; Pkg.add("Coverage"); using Coverage; Codecov.submit(process_folder());'
+  - bash <(curl -s https://codecov.io/bash)
