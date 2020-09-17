@@ -24,11 +24,16 @@ include("cross_entropy_method.jl")
 export thompson_sampling
 include("thompson_sampling.jl")
 
+export particle_filter, POMDP
+include("particle_filter.jl")
+
 export value_iteration, policy, lookahead, MDP
 include("value_iteration.jl")
 
-export branch_and_bound
-include("branch_and_bound.jl")
+# suppress MDP redefinition
+module BranchAndBound include("branch_and_bound.jl") end
+import .BranchAndBound: branch_and_bound
+export branch_and_bound, BranchAndBound
 
 export MonteCarloTreeSearch, MDPᴳ, simulate!, explore, rollout
 include("monte_carlo_tree_search.jl")

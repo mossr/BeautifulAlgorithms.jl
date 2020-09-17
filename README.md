@@ -45,6 +45,11 @@ Mykel J. Kochenderfer and Tim A. Wheeler, *Algorithms for Optimization*, MIT Pre
 <p align="center"><a href="./src/thompson_sampling.jl"> <img src="./img/thompson_sampling.svg"></a></p>
 
 
+## Particle filter
+Mykel J. Kochenderfer, Tim A. Wheeler and Kyle H. Wray, *Algorithms for Decision Making*, Processing.
+<p align="center"><a href="./src/particle_filter.jl"> <img src="./img/particle_filter.svg"></a></p>
+
+
 ## Value iteration
 Mykel J. Kochenderfer, Tim A. Wheeler and Kyle H. Wray, *Algorithms for Decision Making*, Processing.
 <p align="center"><a href="./src/value_iteration.jl"> <img src="./img/value_iteration.svg"></a></p>

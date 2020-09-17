@@ -4,7 +4,7 @@
     𝒜 = [+1, -1]
     T = (s,a,s′)->s + a == s′ ? 0.7 : 0
     R = (s,a)->s == 5 ? 100 : 0
-    𝒫 = MDP(γ, 𝒮, 𝒜, T, R)
+    𝒫 = BranchAndBound.MDP(γ, 𝒮, 𝒜, T, R)
 
     d = 4 # depth
     𝑈₋ = s->0 # lower bound on value function at depth d
