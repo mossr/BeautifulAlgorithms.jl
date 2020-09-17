@@ -27,6 +27,9 @@ include("thompson_sampling.jl")
 export value_iteration, policy, lookahead, MDP
 include("value_iteration.jl")
 
+export branch_and_bound
+include("branch_and_bound.jl")
+
 export MonteCarloTreeSearch, MDPᴳ, simulate!, explore, rollout
 include("monte_carlo_tree_search.jl")
 

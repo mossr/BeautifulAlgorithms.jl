@@ -10,47 +10,52 @@ Algorithms for machine learning, optimization, reinforcement learning, online pl
 ```
 
 
-## Gradient Descent
+## Gradient descent
 <p align="center"><a href="./src/gradient_descent.jl"> <img src="./img/gradient_descent.svg"></a></p>
 
 
-## Stochastic Gradient Descent
+## Stochastic gradient descent
 <p align="center"><a href="./src/stochastic_gradient_descent.jl"> <img src="./img/stochastic_gradient_descent.svg"></a></p>
 
 
-## One-Layer Neural Network
+## One-layer neural network
 <p align="center"><a href="./src/neural_network.jl"> <img src="./img/neural_network.svg"></a></p>
 
 
-## Nearest Neighbor
+## Nearest neighbor
 <p align="center"><a href="./src/nearest_neighbor.jl"> <img src="./img/nearest_neighbor.svg"></a></p>
 
 
-## Linear Regression
+## Linear regression
 Mykel J. Kochenderfer and Tim A. Wheeler, *Algorithms for Optimization*, MIT Press, 2019.
 <p align="center"><a href="./src/linear_regression.jl"> <img src="./img/linear_regression.svg"></a></p>
 
 
-## Radial Basis Regression
+## Radial basis regression
 Mykel J. Kochenderfer and Tim A. Wheeler, *Algorithms for Optimization*, MIT Press, 2019.
 <p align="center"><a href="./src/radial_basis_regression.jl"> <img src="./img/radial_basis_regression.svg"></a></p>
 
 
-## Cross-Entropy Method
+## Cross-entropy method
 Mykel J. Kochenderfer and Tim A. Wheeler, *Algorithms for Optimization*, MIT Press, 2019.
 <p align="center"><a href="./src/cross_entropy_method.jl"> <img src="./img/cross_entropy_method.svg"></a></p>
 
 
-## Thompson Sampling
+## Thompson sampling
 <p align="center"><a href="./src/thompson_sampling.jl"> <img src="./img/thompson_sampling.svg"></a></p>
 
 
-## Value Iteration
+## Value iteration
 Mykel J. Kochenderfer, Tim A. Wheeler and Kyle H. Wray, *Algorithms for Decision Making*, Processing.
 <p align="center"><a href="./src/value_iteration.jl"> <img src="./img/value_iteration.svg"></a></p>
 
 
-## Monte Carlo Tree Search
+## Branch and bound
+Mykel J. Kochenderfer, Tim A. Wheeler and Kyle H. Wray, *Algorithms for Decision Making*, Processing.
+<p align="center"><a href="./src/branch_and_bound.jl"> <img src="./img/branch_and_bound.svg"></a></p>
+
+
+## Monte Carlo tree search
 Mykel J. Kochenderfer, Tim A. Wheeler and Kyle H. Wray, *Algorithms for Decision Making*, Processing.
 <p align="center"><a href="./src/monte_carlo_tree_search.jl"> <img src="./img/monte_carlo_tree_search.svg"></a></p>
 
