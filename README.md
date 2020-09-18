@@ -41,6 +41,11 @@ Mykel J. Kochenderfer and Tim A. Wheeler, *Algorithms for Optimization*, MIT Pre
 <p align="center"><a href="./src/cross_entropy_method.jl"> <img src="./img/cross_entropy_method.svg"></a></p>
 
 
+## Twiddle
+Sebatian Thurn, *Artificial Intelligence for Robotics*, Udacity, 2012.
+<p align="center"><a href="./src/twiddle.jl"> <img src="./img/twiddle.svg"></a></p>
+
+
 ## Thompson sampling
 <p align="center"><a href="./src/thompson_sampling.jl"> <img src="./img/thompson_sampling.svg"></a></p>
 

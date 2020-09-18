@@ -21,6 +21,9 @@ include("radial_basis_regression.jl")
 export cross_entropy_method
 include("cross_entropy_method.jl")
 
+export twiddle
+include("twiddle.jl")
+
 export thompson_sampling
 include("thompson_sampling.jl")
 
