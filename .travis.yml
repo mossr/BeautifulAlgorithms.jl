@@ -11,6 +11,10 @@ julia:
 notifications:
   email: false
 
+apt:
+  packages:
+  - dos2unix
+
 script:
   - julia -e 'using Pkg; Pkg.build(); Pkg.test(coverage=true)'
 after_success:
