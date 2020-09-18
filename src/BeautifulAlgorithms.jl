@@ -38,4 +38,10 @@ export branch_and_bound, BranchAndBound
 export MonteCarloTreeSearch, MDPᴳ, simulate!, explore, rollout
 include("monte_carlo_tree_search.jl")
 
+export bubble_sort!
+include("bubble_sort!.jl")
+
+export merge_sort, merge
+include("merge_sort.jl")
+
 end # module

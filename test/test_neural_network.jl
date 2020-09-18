@@ -1,4 +1,4 @@
-@testset "One-Layer Neural Network" begin
+@testset "Two-layer neural network" begin
     function test_neural_network(g=σ)
         x = 2
         φ = x -> [x, x^2, sqrt(abs(x))]

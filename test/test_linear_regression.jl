@@ -1,4 +1,4 @@
-@testset "Linear Regression" begin
+@testset "Linear regression" begin
     𝒟 = [(1,1), (2,3), (3,3), (4,4)]
     X = map(first, 𝒟)
     y = map(last, 𝒟)

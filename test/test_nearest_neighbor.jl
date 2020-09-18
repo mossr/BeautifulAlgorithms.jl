@@ -1,4 +1,4 @@
-@testset "Nearest Neighbor" begin
+@testset "Nearest neighbor" begin
     function test_nearest_neighbor()
         𝒟train = [([5,9],6),
                   ([5,5],7),

@@ -1,4 +1,4 @@
-@testset "Branch and Bound" begin
+@testset "Branch and bound" begin
     γ = 0.95
     𝒮 = 1:10
     𝒜 = [+1, -1]

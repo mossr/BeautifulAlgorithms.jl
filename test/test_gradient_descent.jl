@@ -1,4 +1,4 @@
-@testset "Gradient Descent" begin
+@testset "Gradient descent" begin
     using Statistics
     using LinearAlgebra
 

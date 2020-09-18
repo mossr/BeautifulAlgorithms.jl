@@ -1,4 +1,4 @@
-@testset "Monte Carlo Tree Search" begin
+@testset "Monte Carlo tree search" begin
     import Random: seed!
     seed!(0)
 

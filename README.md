@@ -64,6 +64,13 @@ Mykel J. Kochenderfer, Tim A. Wheeler and Kyle H. Wray, *Algorithms for Decision
 Mykel J. Kochenderfer, Tim A. Wheeler and Kyle H. Wray, *Algorithms for Decision Making*, Preprint.
 <p align="center"><a href="./src/monte_carlo_tree_search.jl"> <img src="./img/monte_carlo_tree_search.svg"></a></p>
 
+## Bubble sort
+<p align="center"><a href="./src/bubble_sort!.jl"> <img src="./img/bubble_sort!.svg"></a></p>
+
+
+## Merge sort
+<p align="center"><a href="./src/merge_sort.jl"> <img src="./img/merge_sort.svg"></a></p>
+
 ---
 *Note: Algorithms are slightly modified from their original sources to make them self -contained.*
 

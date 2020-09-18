@@ -1,4 +1,4 @@
-@testset "Cross-Entropy Method" begin
+@testset "Cross-entropy method" begin
     using Distributions
     import Random: seed!
     import LinearAlgebra: norm

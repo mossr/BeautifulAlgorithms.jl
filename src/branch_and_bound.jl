@@ -6,7 +6,7 @@ function branch_and_bound(𝒫::MDP, s, d, 𝑈₋, 𝑄⁻)
         return (a=nothing, u=𝑈₋(s))
     end
     best = (a=nothing, u=-Inf)
-    𝑈′(s) = branch_and_bound(𝒫, s, d-1, 𝑈₋, 𝑄⁻).u
+    𝑈′ = s -> branch_and_bound(𝒫, s, d-1, 𝑈₋, 𝑄⁻).u
     for a in 𝒫.𝒜
         if 𝑄⁻(s,a) < best.u
             return best # prune

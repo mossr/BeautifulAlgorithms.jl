@@ -1,4 +1,4 @@
-@testset "Value Iteration" begin
+@testset "Value iteration" begin
     P = MDP(0.95, [1:100;], [+1, -1], (s,a,s′)->s + a == s′ ? 0.7 : 0, (s,a)->s == 50 ? 1 : 0)
 
     U = value_iteration(P, 100)

@@ -1,4 +1,4 @@
-@testset "Stochastic Gradeient Descent" begin
+@testset "Stochastic gradeient descent" begin
     Base.:*(δη::Decay, x) = x/sqrt(δη.i+=1)
 
     loss_squared(x, y, 𝐰, φ) = (𝐰⋅φ(x) - y)^2
