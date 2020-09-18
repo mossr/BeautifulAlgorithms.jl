@@ -72,18 +72,24 @@ Mykel J. Kochenderfer, Tim A. Wheeler and Kyle H. Wray, *Algorithms for Decision
 Mykel J. Kochenderfer, Tim A. Wheeler and Kyle H. Wray, *Algorithms for Decision Making*, Preprint.
 <p align="center"><a href="./src/monte_carlo_tree_search.jl"> <img src="./img/monte_carlo_tree_search.svg"></a></p>
 
+
+## Huffman coding
+David A. Huffman, *A Method for the Construction of Minimum-Redundancy Codes*, IEEE, 1952.
+<p align="center"><a href="./src/huffman_coding.jl"> <img src="./img/huffman_coding.svg"></a></p>
+
+
 ## Bubble sort
-Lisa Yan, *Design and Analysis of Algorithms*, Stanford University, 2020.
+Karey Shi, *Design and Analysis of Algorithms*, Stanford University, 2020.
 <p align="center"><a href="./src/bubble_sort!.jl"> <img src="./img/bubble_sort!.svg"></a></p>
 
 
 ## Merge sort
-Lisa Yan, *Design and Analysis of Algorithms*, Stanford University, 2020.
+Karey Shi, *Design and Analysis of Algorithms*, Stanford University, 2020.
 <p align="center"><a href="./src/merge_sort.jl"> <img src="./img/merge_sort.svg"></a></p>
 
 
 ## Insertion sort
-Lisa Yan, *Design and Analysis of Algorithms*, Stanford University, 2020.
+Karey Shi, *Design and Analysis of Algorithms*, Stanford University, 2020.
 <p align="center"><a href="./src/insertion_sort!.jl"> <img src="./img/insertion_sort!.svg"></a></p>
 
 

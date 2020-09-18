@@ -41,6 +41,9 @@ export branch_and_bound, BranchAndBound
 export MonteCarloTreeSearch, MDPᴳ, simulate!, explore, rollout
 include("monte_carlo_tree_search.jl")
 
+export huffman_coding
+include("huffman_coding.jl")
+
 export bubble_sort!
 include("bubble_sort!.jl")
 
