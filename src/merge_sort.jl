@@ -3,8 +3,8 @@ function merge_sort(X)
     if n ≤ 1
         return X
     end
-    L = merge_sort(X[1:div(n,2)])
-    R = merge_sort(X[div(n,2)+1:end])
+    L = merge_sort(X[1:n÷2])
+    R = merge_sort(X[n÷2+1:end])
     return merge(L, R)
 end
 
