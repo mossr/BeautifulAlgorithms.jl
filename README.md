@@ -11,10 +11,12 @@ Algorithms for machine learning, optimization, reinforcement learning, online pl
 
 
 ## Gradient descent
+Percy Liang and Dorsa Sadigh, *Artificial Intelligence: Principles and Techniques*, Stanford University, 2019.
 <p align="center"><a href="./src/gradient_descent.jl"> <img src="./img/gradient_descent.svg"></a></p>
 
 
 ## Stochastic gradient descent
+Percy Liang and Dorsa Sadigh, *Artificial Intelligence: Principles and Techniques*, Stanford University, 2019.
 <p align="center"><a href="./src/stochastic_gradient_descent.jl"> <img src="./img/stochastic_gradient_descent.svg"></a></p>
 
 
@@ -47,6 +49,7 @@ Sebatian Thurn, *Artificial Intelligence for Robotics*, Udacity, 2012.
 
 
 ## Thompson sampling
+Daniel J. Russo, Benjamin Van Roy, Abbas Kazerouni, Ian Osband, and Zheng Wen, *A Tutorial on Thompson Sampling*, arXiv:1707.02038, 2020.
 <p align="center"><a href="./src/thompson_sampling.jl"> <img src="./img/thompson_sampling.svg"></a></p>
 
 
@@ -70,21 +73,29 @@ Mykel J. Kochenderfer, Tim A. Wheeler and Kyle H. Wray, *Algorithms for Decision
 <p align="center"><a href="./src/monte_carlo_tree_search.jl"> <img src="./img/monte_carlo_tree_search.svg"></a></p>
 
 ## Bubble sort
+Lisa Yan, *Design and Analysis of Algorithms*, Stanford University, 2020.
 <p align="center"><a href="./src/bubble_sort!.jl"> <img src="./img/bubble_sort!.svg"></a></p>
 
 
 ## Merge sort
+Lisa Yan, *Design and Analysis of Algorithms*, Stanford University, 2020.
 <p align="center"><a href="./src/merge_sort.jl"> <img src="./img/merge_sort.svg"></a></p>
 
 
 ## Insertion sort
+Lisa Yan, *Design and Analysis of Algorithms*, Stanford University, 2020.
 <p align="center"><a href="./src/insertion_sort!.jl"> <img src="./img/insertion_sort!.svg"></a></p>
 
 
 ## Bogo sort
 <p align="center"><a href="./src/bogo_sort!.jl"> <img src="./img/bogo_sort!.svg"></a></p>
 
+
+## Quine
+Nathan Daly, *Julia Discord*, 2019.
+<p align="center"><a href="./src/quine.jl"> <img src="./img/quine.svg"></a></p>
+
 ---
-*Note: Algorithms are slightly modified from their original sources to make them self -contained.*
+*Note: Algorithms are modified from their original sources.*
 
 Written by [Robert Moss](https://github.com/mossr).
