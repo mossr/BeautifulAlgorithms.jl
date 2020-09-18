@@ -3,7 +3,9 @@ using Test
     original_stdout = stdout
     (rd, wr) = redirect_stdout()
     quine_file = joinpath(@__DIR__, "../src/quine.jl")
-    run(`dos2unix $quine_file`)
+    if Sys.iswindows()
+        run(`dos2unix $quine_file`)
+    end
     include(quine_file)
     redirect_stdout(original_stdout)
     close(wr)

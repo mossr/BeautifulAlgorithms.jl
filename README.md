@@ -92,7 +92,7 @@ Lisa Yan, *Design and Analysis of Algorithms*, Stanford University, 2020.
 
 
 ## Quine
-Nathan Daly, *Julia Discord*, 2019.
+Nathan Daly, *Julia Discord*, 2019.<sup><a href="https://discourse.julialang.org/t/quines-and-loons-self-replicating-programs/12607/7" target="_blank">1</a></sup>
 <p align="center"><a href="./src/quine.jl"> <img src="./img/quine.svg"></a></p>
 
 ---
