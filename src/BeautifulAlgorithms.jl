@@ -44,4 +44,10 @@ include("bubble_sort!.jl")
 export merge_sort, merge
 include("merge_sort.jl")
 
+export insertion_sort!, merge
+include("insertion_sort!.jl")
+
+export bogo_sort!, merge
+include("bogo_sort!.jl")
+
 end # module

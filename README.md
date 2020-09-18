@@ -3,7 +3,7 @@
 
 Consice algorithms written in Julia and formatted with [Carbon](https://carbon.now.sh/).
 
-Algorithms for machine learning, optimization, reinforcement learning, online planning, and decision making under uncertainty. All implementations are working and self-contained; refer to the [test cases](./test/).
+Algorithms for machine learning, optimization, reinforcement learning, online planning, decision making under uncertainty, and sorting. All implementations are working and self-contained; refer to the [test cases](./test/).
 
 ```julia
 ] add http://github.com/mossr/BeautifulAlgorithms.jl
@@ -70,6 +70,14 @@ Mykel J. Kochenderfer, Tim A. Wheeler and Kyle H. Wray, *Algorithms for Decision
 
 ## Merge sort
 <p align="center"><a href="./src/merge_sort.jl"> <img src="./img/merge_sort.svg"></a></p>
+
+
+## Insertion sort
+<p align="center"><a href="./src/insertion_sort!.jl"> <img src="./img/insertion_sort!.svg"></a></p>
+
+
+## Bogo sort
+<p align="center"><a href="./src/bogo_sort!.jl"> <img src="./img/bogo_sort!.svg"></a></p>
 
 ---
 *Note: Algorithms are slightly modified from their original sources to make them self -contained.*
