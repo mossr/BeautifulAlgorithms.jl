@@ -41,7 +41,8 @@ end
 function explore(π::MonteCarloTreeSearch, s)
     𝒜, N, Q, c = π.𝒫.𝒜, π.N, π.Q, π.c
     Ns = sum(N[(s,a)] for a in 𝒜)
-    return 𝒜[argmax([Q[(s,a)] + c*(N[(s,a)] == 0 ? Inf : sqrt(log(Ns)/N[(s,a)])) for a in 𝒜])]
+    Ns = (Ns == 0) ? Inf : Ns
+    return 𝒜[argmax([Q[(s,a)] + c*sqrt(log(Ns)/N[(s,a)]) for a in 𝒜])]
 end
 
 function rollout(𝒫, s, π, d)
