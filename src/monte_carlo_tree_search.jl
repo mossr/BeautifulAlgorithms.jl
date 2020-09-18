@@ -21,8 +21,8 @@ function simulate!(π::MonteCarloTreeSearch, s, d=π.d)
     if d ≤ 0
         return 0.0
     end
-    𝒫, N, Q, c = π.𝒫, π.N, π.Q, π.c
-    𝒜, G, γ = 𝒫.𝒜, 𝒫.G, 𝒫.γ
+    (𝒫, N, Q, c) = (π.𝒫, π.N, π.Q, π.c)
+    (𝒜, G, γ) = (𝒫.𝒜, 𝒫.G, 𝒫.γ)
     if !haskey(N, (s, first(𝒜)))
         for a in 𝒜
             N[(s,a)] = 0
@@ -39,7 +39,7 @@ function simulate!(π::MonteCarloTreeSearch, s, d=π.d)
 end
 
 function explore(π::MonteCarloTreeSearch, s)
-    𝒜, N, Q, c = π.𝒫.𝒜, π.N, π.Q, π.c
+    (𝒜, N, Q, c) = (π.𝒫.𝒜, π.N, π.Q, π.c)
     Ns = sum(N[(s,a)] for a in 𝒜)
     Ns = (Ns == 0) ? Inf : Ns
     return 𝒜[argmax([Q[(s,a)] + c*sqrt(log(Ns)/N[(s,a)]) for a in 𝒜])]
