@@ -6,7 +6,7 @@
 
     function test_stochastic_gradient_descent()
         𝒟train = [([3,0.7],4), ([-1,0.3],3), ([-1,-3],0)]
-        𝐰_opt = stochastic_gradient_descent(𝒟train, x->x; η=0.01)
+        𝐰_opt = stochastic_gradient_descent(𝒟train, x->x, ∇loss_squared; η=0.01)
         y_opt = mean_loss(𝐰_opt, 𝒟train, x->x, loss_squared)
         return (𝐰_opt, y_opt)
     end

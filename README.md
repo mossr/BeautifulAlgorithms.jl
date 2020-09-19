@@ -24,6 +24,10 @@ Percy Liang and Dorsa Sadigh, *Artificial Intelligence: Principles and Technique
 <p align="center"><a href="./src/neural_network.jl"> <img src="./img/neural_network.svg"></a></p>
 
 
+## Loss functions
+<p align="center"><a href="./src/loss_functions.jl"> <img src="./img/loss_functions.svg"></a></p>
+
+
 ## Nearest neighbor
 <p align="center"><a href="./src/nearest_neighbor.jl"> <img src="./img/nearest_neighbor.svg"></a></p>
 
@@ -41,6 +45,11 @@ Mykel J. Kochenderfer and Tim A. Wheeler, *Algorithms for Optimization*, MIT Pre
 ## Cross-entropy method
 Mykel J. Kochenderfer and Tim A. Wheeler, *Algorithms for Optimization*, MIT Press, 2019.
 <p align="center"><a href="./src/cross_entropy_method.jl"> <img src="./img/cross_entropy_method.svg"></a></p>
+
+
+## Finite difference methods
+Mykel J. Kochenderfer and Tim A. Wheeler, *Algorithms for Optimization*, MIT Press, 2019.
+<p align="center"><a href="./src/finite_difference_methods.jl"> <img src="./img/finite_difference_methods.svg"></a></p>
 
 
 ## Twiddle

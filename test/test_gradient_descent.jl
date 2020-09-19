@@ -13,7 +13,7 @@
     """
     function test_gradient_descent()
         𝒟train = [(3,4), (-1,3), (-1,0)]
-        𝐰_opt = gradient_descent(𝒟train, x->x)
+        𝐰_opt = gradient_descent(𝒟train, x->x, ∇loss_squared)
         y_opt = mean_loss(𝐰_opt, 𝒟train, x->x, loss_squared)
         return (𝐰_opt, y_opt)
     end
@@ -23,7 +23,7 @@
     """
     function test_gradient_descent_decay(T)
         𝒟train = [(3,4), (-1,3), (-1,0)]
-        𝐰_opt = gradient_descent(𝒟train, x->x; η=Decay(0), T=T)
+        𝐰_opt = gradient_descent(𝒟train, x->x, ∇loss_squared; η=Decay(0), T=T)
         y_opt = mean_loss(𝐰_opt, 𝒟train, x->x, loss_squared)
         return (𝐰_opt, y_opt)
     end
@@ -33,7 +33,7 @@
     """
     function test_gradient_descent_multi()
         𝒟train = [([3,0.7],4), ([-1,0.3],3), ([-1,-3],0)]
-        𝐰_opt = gradient_descent(𝒟train, x->x)
+        𝐰_opt = gradient_descent(𝒟train, x->x, ∇loss_squared)
         y_opt = mean_loss(𝐰_opt, 𝒟train, x->x, loss_squared)
         return (𝐰_opt, y_opt)
     end
