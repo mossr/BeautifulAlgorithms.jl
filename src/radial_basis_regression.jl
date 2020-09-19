@@ -1,4 +1,5 @@
 using LinearAlgebra
+
 function radial_basis_regression(X, y; σ=1, p=2)
     ψ = r->exp(-r^2 / (2σ^2))
     bases = [x->ψ(norm(x - c, p)) for c in X]

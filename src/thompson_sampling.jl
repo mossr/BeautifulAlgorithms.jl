@@ -1,4 +1,5 @@
 using Distributions
+
 function thompson_sampling(𝛂, 𝛃, apply; T=100)
     for t in 1:T
         𝛉 = rand.(Beta.(𝛂, 𝛃))

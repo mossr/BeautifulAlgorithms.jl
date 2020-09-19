@@ -1,4 +1,5 @@
 using LinearAlgebra
+
 𝕀(b) = b ? 1 : 0
 σ(z) = 1/(1 + exp(-z))
 
