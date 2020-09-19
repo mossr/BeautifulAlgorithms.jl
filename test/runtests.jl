@@ -4,6 +4,7 @@ using BeautifulAlgorithms
 include("test_gradient_descent.jl")
 include("test_stochastic_gradient_descent.jl")
 include("test_neural_network.jl")
+include("test_multi_layer_neural_network.jl")
 include("test_loss_functions.jl")
 include("test_nearest_neighbor.jl")
 include("test_linear_regression.jl")

@@ -23,6 +23,13 @@ Percy Liang and Dorsa Sadigh, *Artificial Intelligence: Principles and Technique
 ## Two-layer neural network
 <p align="center"><a href="./src/neural_network.jl"> <img src="./img/neural_network.svg"></a></p>
 
+##### Two-layer neural network (one-liner)
+<p align="center"><a href="./src/neural_network_one_liner.jl"> <img src="./img/neural_network_one_liner.svg"></a></p>
+
+
+## Multi-layer neural network
+<p align="center"><a href="./src/multi_layer_neural_network.jl"> <img src="./img/multi_layer_neural_network.svg"></a></p>
+
 
 ## Loss functions
 <p align="center"><a href="./src/loss_functions.jl"> <img src="./img/loss_functions.svg"></a></p>
