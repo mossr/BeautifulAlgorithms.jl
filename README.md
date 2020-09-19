@@ -70,22 +70,22 @@ Daniel J. Russo, Benjamin Van Roy, Abbas Kazerouni, Ian Osband, and Zheng Wen, *
 
 
 ## Particle filter
-Mykel J. Kochenderfer, Tim A. Wheeler and Kyle H. Wray, *Algorithms for Decision Making*, Preprint.
+Mykel J. Kochenderfer, Tim A. Wheeler, and Kyle H. Wray, *Algorithms for Decision Making*, Preprint.
 <p align="center"><a href="./src/particle_filter.jl"> <img src="./img/particle_filter.svg"></a></p>
 
 
 ## Value iteration
-Mykel J. Kochenderfer, Tim A. Wheeler and Kyle H. Wray, *Algorithms for Decision Making*, Preprint.
+Mykel J. Kochenderfer, Tim A. Wheeler, and Kyle H. Wray, *Algorithms for Decision Making*, Preprint.
 <p align="center"><a href="./src/value_iteration.jl"> <img src="./img/value_iteration.svg"></a></p>
 
 
 ## Branch and bound
-Mykel J. Kochenderfer, Tim A. Wheeler and Kyle H. Wray, *Algorithms for Decision Making*, Preprint.
+Mykel J. Kochenderfer, Tim A. Wheeler, and Kyle H. Wray, *Algorithms for Decision Making*, Preprint.
 <p align="center"><a href="./src/branch_and_bound.jl"> <img src="./img/branch_and_bound.svg"></a></p>
 
 
 ## Monte Carlo tree search
-Mykel J. Kochenderfer, Tim A. Wheeler and Kyle H. Wray, *Algorithms for Decision Making*, Preprint.
+Mykel J. Kochenderfer, Tim A. Wheeler, and Kyle H. Wray, *Algorithms for Decision Making*, Preprint.
 <p align="center"><a href="./src/monte_carlo_tree_search.jl"> <img src="./img/monte_carlo_tree_search.svg"></a></p>
 
 
