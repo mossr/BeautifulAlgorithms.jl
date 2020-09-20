@@ -15,7 +15,7 @@
     @test ReLU(-1) == 0
 end
 
-@testset "Neural network one-liner" begin
+@testset "Neural network (one-liner)" begin
     import BeautifulAlgorithms.neural_network
     include(joinpath(@__DIR__, "..", "src", "neural_network_one_liner.jl"))
     x = 2

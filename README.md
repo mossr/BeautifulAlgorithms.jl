@@ -113,6 +113,9 @@ Karey Shi, *Design and Analysis of Algorithms*, Stanford University, 2020.
 ## Bogo sort
 <p align="center"><a href="./src/bogo_sort!.jl"> <img src="./img/bogo_sort!.svg"></a></p>
 
+##### Bogo sort (one-liner)
+<p align="center"><a href="./src/bogo_sort!_one_line.jl"> <img src="./img/bogo_sort!_one_line.svg"></a></p>
+
 
 ## Quine
 Nathan Daly, *Julia Discord*, 2019.<sup><a href="https://discourse.julialang.org/t/quines-and-loons-self-replicating-programs/12607/7" target="_blank">1</a></sup>
