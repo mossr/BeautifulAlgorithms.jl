@@ -9,6 +9,7 @@ Algorithms for machine learning, optimization, reinforcement learning, online pl
 ] add http://github.com/mossr/BeautifulAlgorithms.jl
 ```
 
+*Note: Algorithms are modified from their original sources.*
 
 ## Gradient descent
 Percy Liang and Dorsa Sadigh, *Artificial Intelligence: Principles and Techniques*, Stanford University, 2019.
@@ -118,6 +119,5 @@ Nathan Daly, *Julia Discord*, 2019.<sup><a href="https://discourse.julialang.org
 <p align="center"><a href="./src/quine.jl"> <img src="./img/quine.svg"></a></p>
 
 ---
-*Note: Algorithms are modified from their original sources.*
 
 Written by [Robert Moss](https://github.com/mossr).
