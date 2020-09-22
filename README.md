@@ -44,6 +44,11 @@ Percy Liang and Dorsa Sadigh, *Artificial Intelligence: Principles and Technique
 <p align="center"><a href="./src/k_nearest_neighbors.jl"> <img src="./img/svg/k_nearest_neighbors.svg"></a></p>
 
 
+## K-means clustering
+Percy Liang and Dorsa Sadigh, *Artificial Intelligence: Principles and Techniques*, Stanford University, 2019.
+<p align="center"><a href="./src/k_means_clustering.jl"> <img src="./img/svg/k_means_clustering.svg"></a></p>
+
+
 ## Linear regression
 Mykel J. Kochenderfer and Tim A. Wheeler, *Algorithms for Optimization*, MIT Press, 2019.
 <p align="center"><a href="./src/linear_regression.jl"> <img src="./img/svg/linear_regression.svg"></a></p>

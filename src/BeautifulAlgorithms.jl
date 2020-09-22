@@ -21,6 +21,9 @@ include("nearest_neighbor.jl")
 export k_nearest_neighbors
 include("k_nearest_neighbors.jl")
 
+export k_means_clustering
+include("k_means_clustering.jl")
+
 export linear_regression
 include("linear_regression.jl")
 
