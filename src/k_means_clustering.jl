@@ -1,9 +1,10 @@
 using Statistics
 
 function k_means_clustering(φ, 𝒟, dist, K; T=100)
+    local z
     μ = rand(first.(𝒟), K)
-    z = Dict(map(k->Pair(k, []), 1:K))
     for t in 1:T
+        z = Dict(map(k->Pair(k, []), 1:K))
         for i in 1:length(𝒟)
             xᵢ = first(𝒟[i])
             push!(z[argmin([dist(φ(xᵢ), μₖ) for μₖ in μ])], i)
@@ -14,5 +15,5 @@ function k_means_clustering(φ, 𝒟, dist, K; T=100)
             end
         end
     end
-    return μ
+    return (z, μ)
 end
