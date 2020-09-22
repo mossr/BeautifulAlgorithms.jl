@@ -18,6 +18,9 @@ include("loss_functions.jl")
 export nearest_neighbor, dist_manhattan, dist_euclidean, dist_supremum
 include("nearest_neighbor.jl")
 
+export k_nearest_neighbors
+include("k_nearest_neighbors.jl")
+
 export linear_regression
 include("linear_regression.jl")
 

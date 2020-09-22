@@ -40,6 +40,10 @@ Percy Liang and Dorsa Sadigh, *Artificial Intelligence: Principles and Technique
 <p align="center"><a href="./src/nearest_neighbor.jl"> <img src="./img/svg/nearest_neighbor.svg"></a></p>
 
 
+## K-nearest neighbors
+<p align="center"><a href="./src/k_nearest_neighbors.jl"> <img src="./img/svg/k_nearest_neighbors.svg"></a></p>
+
+
 ## Linear regression
 Mykel J. Kochenderfer and Tim A. Wheeler, *Algorithms for Optimization*, MIT Press, 2019.
 <p align="center"><a href="./src/linear_regression.jl"> <img src="./img/svg/linear_regression.svg"></a></p>
