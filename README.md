@@ -36,6 +36,10 @@ Percy Liang and Dorsa Sadigh, *Artificial Intelligence: Principles and Technique
 <p align="center"><a href="./src/loss_functions.jl"> <img src="./img/svg/loss_functions.svg"></a></p>
 
 
+## Distance functions
+<p align="center"><a href="./src/distance_functions.jl"> <img src="./img/svg/distance_functions.svg"></a></p>
+
+
 ## Nearest neighbor
 <p align="center"><a href="./src/nearest_neighbor.jl"> <img src="./img/svg/nearest_neighbor.svg"></a></p>
 

@@ -15,6 +15,9 @@ include("multi_layer_neural_network.jl")
 export 𝕀, σ, ŷ, margin, residual, loss_01, loss_absdev, loss_squared, loss_hinge, loss_logistic, loss_cross_entropy, ∇loss_absdev, ∇loss_squared, ∇loss_hinge, ∇loss_logistic, ∇loss_cross_entropy
 include("loss_functions.jl")
 
+export dist_manhattan, dist_euclidean, dist_supremum
+include("distance_functions.jl")
+
 export nearest_neighbor, dist_manhattan, dist_euclidean, dist_supremum
 include("nearest_neighbor.jl")
 

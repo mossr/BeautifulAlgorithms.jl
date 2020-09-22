@@ -18,9 +18,6 @@
         @test neighbor_supremum == [7, 8]
 
         @test nearest_neighbor(0, x->x, [(0,0)], dist_manhattan) == 0
-        @test dist_manhattan([0,0], [3,3]) == 6.0
-        @test dist_euclidean([0,0], [3,3]) ≈ 4.242640687119285
-        @test dist_supremum([0,0], [3,3]) == 3.0
     end
 
     test_nearest_neighbor()
