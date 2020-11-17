@@ -1,7 +1,7 @@
 # BeautifulAlgorithms.jl
 [![Build Status](https://travis-ci.com/mossr/BeautifulAlgorithms.jl.svg?branch=master)](https://travis-ci.com/mossr/BeautifulAlgorithms.jl) [![codecov](https://codecov.io/github/mossr/BeautifulAlgorithms.jl/coverage.svg?branch=master)](https://codecov.io/gh/mossr/BeautifulAlgorithms.jl)
 
-Consice algorithms written in Julia and formatted with [Carbon](https://carbon.now.sh/).
+Concise algorithms written in Julia and formatted with [Carbon](https://carbon.now.sh/).
 
 Algorithms for machine learning, optimization, reinforcement learning, online planning, decision making under uncertainty, and sorting. All implementations are working and self-contained; refer to the [test cases](./test/).
 
