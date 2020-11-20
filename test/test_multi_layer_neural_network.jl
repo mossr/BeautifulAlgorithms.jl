@@ -1,4 +1,5 @@
 include("../src/multi_layer_neural_network.jl")
+using BeautifulAlgorithms
 using Test
 @testset "Multi-layer neural network" begin
     function test_two_layer_neural_network(𝐠=[σ])

@@ -127,7 +127,7 @@ Karey Shi, *Design and Analysis of Algorithms*, Stanford University, 2020.
 <p align="center"><a href="./src/bogo_sort!.jl"> <img src="./img/svg/bogo_sort!.svg"></a></p>
 
 ##### Bogo sort (one-liner)
-<p align="center"><a href="./src/bogo_sort!_one_line.jl"> <img src="./img/svg/bogo_sort!_one_line.svg"></a></p>
+<p align="center"><a href="./src/bogo_sort!_one_liner.jl"> <img src="./img/svg/bogo_sort!_one_liner.svg"></a></p>
 
 
 ## Quine
