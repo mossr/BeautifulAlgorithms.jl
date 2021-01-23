@@ -3,12 +3,13 @@
     seed!(0)
 
     # Coverage
-    GaussianProcess(m_zero, k_sqr_exp)
-    GaussianProcess(m_zero, k_exp)
-    GaussianProcess(m_zero, k_gamma_exp)
-    GaussianProcess(m_zero, k_rat_quad)
-    GaussianProcess(m_zero, k_nn)
-    GaussianProcess(m_zero, k_brownian)
+    X = [0, 1]
+    rand(GaussianProcess(m_zero, k_sqr_exp), X)
+    rand(GaussianProcess(m_zero, k_exp), X)
+    rand(GaussianProcess(m_zero, k_gamma_exp), X)
+    rand(GaussianProcess(m_zero, k_rat_quad), X)
+    rand(GaussianProcess(m_zero, k_nn), X)
+    rand(GaussianProcess(m_zero, k_brownian), X)
 
     @test true
 end
