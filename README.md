@@ -73,6 +73,11 @@ Mykel J. Kochenderfer and Tim A. Wheeler, *Algorithms for Optimization*, MIT Pre
 <p align="center"><a href="./src/finite_difference_methods.jl"> <img src="./img/svg/finite_difference_methods.svg"></a></p>
 
 
+## Simulated annealing
+Mykel J. Kochenderfer and Tim A. Wheeler, *Algorithms for Optimization*, MIT Press, 2019.
+<p align="center"><a href="./src/simulated_annealing.jl"> <img src="./img/svg/simulated_annealing.svg"></a></p>
+
+
 ## Twiddle
 Sebatian Thurn, *Artificial Intelligence for Robotics*, Udacity, 2012.
 <p align="center"><a href="./src/twiddle.jl"> <img src="./img/svg/twiddle.svg"></a></p>

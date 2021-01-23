@@ -39,6 +39,9 @@ include("cross_entropy_method.jl")
 export forward_difference, central_difference, backward_difference, complex_difference
 include("finite_difference_methods.jl")
 
+export simulated_annealing
+include("simulated_annealing.jl")
+
 export twiddle
 include("twiddle.jl")
 
