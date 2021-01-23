@@ -42,6 +42,12 @@ include("finite_difference_methods.jl")
 export twiddle
 include("twiddle.jl")
 
+export k_sqr_exp, k_exp, k_gamma_exp, k_rat_quad, k_nn, k_brownian, m_zero
+include("gaussian_process_kernels.jl")
+
+export GaussianProcess
+include("gaussian_process.jl")
+
 export thompson_sampling
 include("thompson_sampling.jl")
 

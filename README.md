@@ -78,6 +78,15 @@ Sebatian Thurn, *Artificial Intelligence for Robotics*, Udacity, 2012.
 <p align="center"><a href="./src/twiddle.jl"> <img src="./img/svg/twiddle.svg"></a></p>
 
 
+## Gaussian process
+Mykel J. Kochenderfer and Tim A. Wheeler, *Algorithms for Optimization*, MIT Press, 2019.
+<p align="center"><a href="./src/gaussian_process.jl"> <img src="./img/svg/gaussian_process.svg"></a></p>
+
+
+## Gaussian process kernels
+<p align="center"><a href="./src/gaussian_process_kernels.jl"> <img src="./img/svg/gaussian_process_kernels.svg"></a></p>
+
+
 ## Thompson sampling
 Daniel J. Russo, Benjamin Van Roy, Abbas Kazerouni, Ian Osband, and Zheng Wen, *A Tutorial on Thompson Sampling*, arXiv:1707.02038, 2020.
 <p align="center"><a href="./src/thompson_sampling.jl"> <img src="./img/svg/thompson_sampling.svg"></a></p>
