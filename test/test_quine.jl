@@ -4,6 +4,7 @@ using Test
     (rd, wr) = redirect_stdout()
     quine_file = joinpath(@__DIR__, "../src/quine.jl")
     if Sys.iswindows()
+        # if `dos2unix` unavailable, comment it out locally.
         run(`dos2unix $quine_file`)
     end
     include(quine_file)

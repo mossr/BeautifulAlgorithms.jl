@@ -62,6 +62,9 @@ include("monte_carlo_tree_search.jl")
 export huffman_coding
 include("huffman_coding.jl")
 
+export hailstone
+include("hailstone.jl")
+
 export bubble_sort!
 include("bubble_sort!.jl")
 

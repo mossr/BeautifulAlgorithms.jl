@@ -108,6 +108,10 @@ David A. Huffman, *A Method for the Construction of Minimum-Redundancy Codes*, I
 <p align="center"><a href="./src/huffman_coding.jl"> <img src="./img/svg/huffman_coding.svg"></a></p>
 
 
+## Hailstone sequence (Collatz conjecture)
+<p align="center"><a href="./src/hailstone.jl"> <img src="./img/svg/hailstone.svg"></a></p>
+
+
 ## Bubble sort
 Karey Shi, *Design and Analysis of Algorithms*, Stanford University, 2020.
 <p align="center"><a href="./src/bubble_sort!.jl"> <img src="./img/svg/bubble_sort!.svg"></a></p>
