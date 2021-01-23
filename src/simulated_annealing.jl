@@ -1,10 +1,8 @@
-using Distributions
-
-function simulated_annealing(f, x, T::Sampleable, t::Function, k_max)
+function simulated_annealing(f, x, P, t::Function, k_max)
     y = f(x)
     x_best, y_best = x, y
     for k in 1:k_max
-        x′ = x + rand(T)
+        x′ = x + rand(P)
         y′ = f(x′)
         Δy = y′ - y
         if Δy ≤ 0 || rand() < exp(-Δy/t(k))
