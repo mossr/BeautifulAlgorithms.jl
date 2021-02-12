@@ -9,10 +9,10 @@ using Random
              ([9.0, 9.0], 10)]
         φ = x->x
 
-        (z1, μ1) = k_means_clustering(φ, 𝒟, dist_euclidean, 2)
+        (z1, μ1) = k_means_clustering(φ, 𝒟, 2)
         @test sort(μ1) == [[6,5], [7,9]]
 
-        (z2, μ2) = k_means_clustering(x->x, [0.0, 2.0, 10.0, 12.0], dist_euclidean, 2)
+        (z2, μ2) = k_means_clustering(x->x, [0.0, 2.0, 10.0, 12.0], 2)
         @test sort(μ2) == [1, 11]
     end
 
