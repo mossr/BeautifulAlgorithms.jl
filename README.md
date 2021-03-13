@@ -9,6 +9,38 @@ Algorithms for machine learning, optimization, reinforcement learning, online pl
 ] add http://github.com/mossr/BeautifulAlgorithms.jl
 ```
 
+- [Gradient descent](#gradient-descent)
+- [Stochastic gradient descent](#stochastic-gradient-descent)
+- [Two-layer neural network](#two-layer-neural-network)
+    - [Two-layer neural network (one-liner)](#two-layer-neural-network-one-liner)
+- [Multi-layer neural network](#multi-layer-neural-network)
+- [Loss functions](#loss-functions)
+- [Distance functions](#distance-functions)
+- [Nearest neighbor](#nearest-neighbor)
+- [K-nearest neighbors](#k-nearest-neighbors)
+- [K-means clustering](#k-means-clustering)
+- [Linear regression](#linear-regression)
+- [Radial basis regression](#radial-basis-regression)
+- [Cross-entropy method](#cross-entropy-method)
+- [Finite difference methods](#finite-difference-methods)
+- [Simulated annealing](#simulated-annealing)
+- [Twiddle](#twiddle)
+- [Gaussian process](#gaussian-process)
+    - [Gaussian process kernels](#gaussian-process-kernels)
+- [Thompson sampling](#thompson-sampling)
+- [Particle filter](#particle-filter)
+- [Value iteration](#value-iteration)
+- [Branch and bound](#branch-and-bound)
+- [Monte Carlo tree search](#monte-carlo-tree-search)
+- [Huffman coding](#huffman-coding)
+- [Hailstone sequence (Collatz conjecture)](#hailstone-sequence-collatz-conjecture)
+- [Bubble sort](#bubble-sort)
+- [Merge sort](#merge-sort)
+- [Insertion sort](#insertion-sort)
+- [Bogo sort](#bogo-sort)
+    - [Bogo sort (one-liner)](#bogo-sort-one-liner)
+- [Quine](#quine)
+
 *Note: Algorithms are modified from their original sources.*
 
 ## Gradient descent
