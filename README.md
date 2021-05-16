@@ -25,6 +25,7 @@ Algorithms for machine learning, optimization, reinforcement learning, online pl
 - [Finite difference methods](#finite-difference-methods)
 - [Simulated annealing](#simulated-annealing)
 - [Twiddle](#twiddle)
+- [Newton's method](#newtons-method)
 - [Gaussian process](#gaussian-process)
     - [Gaussian process kernels](#gaussian-process-kernels)
 - [Thompson sampling](#thompson-sampling)
@@ -113,6 +114,11 @@ Mykel J. Kochenderfer and Tim A. Wheeler, *Algorithms for Optimization*, MIT Pre
 ## Twiddle
 Sebatian Thurn, *Artificial Intelligence for Robotics*, Udacity, 2012.
 <p align="center"><a href="./src/twiddle.jl"> <img src="./img/svg/twiddle.svg"></a></p>
+
+
+## Newton's method
+John Wallis, *A Treatise of Algebra both Historical and Practical*, 1685.
+<p align="center"><a href="./src/newtons_method.jl"> <img src="./img/svg/newtons_method.svg"></a></p>
 
 
 ## Gaussian process
