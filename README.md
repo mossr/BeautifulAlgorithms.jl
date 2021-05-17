@@ -19,6 +19,7 @@ Algorithms for machine learning, optimization, reinforcement learning, online pl
 - [Nearest neighbor](#nearest-neighbor)
 - [K-nearest neighbors](#k-nearest-neighbors)
 - [K-means clustering](#k-means-clustering)
+- [The EM algorithm](#the-em-algorithm)
 - [Linear regression](#linear-regression)
 - [Radial basis regression](#radial-basis-regression)
 - [Cross-entropy method](#cross-entropy-method)
@@ -84,6 +85,11 @@ Percy Liang and Dorsa Sadigh, *Artificial Intelligence: Principles and Technique
 ## K-means clustering
 Percy Liang and Dorsa Sadigh, *Artificial Intelligence: Principles and Techniques*, Stanford University, 2019.
 <p align="center"><a href="./src/k_means_clustering.jl"> <img src="./img/svg/k_means_clustering.svg"></a></p>
+
+
+## The EM algorithm
+Andrew Ng, *Mixtures of Gaussians and the EM algorithm*, Stanford University, 2020.
+<p align="center"><a href="./src/em_algorithm.jl"> <img src="./img/svg/em_algorithm.svg"></a></p>
 
 
 ## Linear regression
