@@ -88,7 +88,7 @@ Percy Liang and Dorsa Sadigh, *Artificial Intelligence: Principles and Technique
 
 
 ## The EM algorithm
-Andrew Ng, *Mixtures of Gaussians and the EM algorithm*, Stanford University, 2020.
+Andrew Ng, *Mixtures of Gaussians and the EM algorithm*, Stanford University, 2020.<sup><a href="http://cs229.stanford.edu/notes2020spring/cs229-notes7b.pdf">1</a></sup>
 <p align="center"><a href="./src/em_algorithm.jl"> <img src="./img/svg/em_algorithm.svg"></a></p>
 
 
@@ -193,7 +193,7 @@ Karey Shi, *Design and Analysis of Algorithms*, Stanford University, 2020.
 
 
 ## Quine
-Nathan Daly, *Julia Discord*, 2019.<sup><a href="https://discourse.julialang.org/t/quines-and-loons-self-replicating-programs/12607/7" target="_blank">1</a></sup>
+Nathan Daly, *Julia Discord*, 2019.<sup><a href="https://discourse.julialang.org/t/quines-and-loons-self-replicating-programs/12607/7" target="_blank">2</a></sup>
 <p align="center"><a href="./src/quine.jl"> <img src="./img/svg/quine.svg"></a></p>
 
 ---
