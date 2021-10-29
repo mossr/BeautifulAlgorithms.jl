@@ -1,6 +1,6 @@
 @testset "Monte Carlo tree search" begin
     import Random: seed!
-    seed!(0)
+    seed!(2)
 
     𝒮 = [1:100;]
     𝒜 = [+1, -1]

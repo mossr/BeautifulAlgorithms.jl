@@ -1,8 +1,12 @@
 using LinearAlgebra
 
-function linear_regression(X, y)
-    n, m = length(first(X)), length(X)
-    𝐗 = [j==0 ? 1.0 : X[i][j] for i in 1:m, j in 0:n]
+function linear_regression(X::Vector{<:Real}, y)
+    θ = pinv(X)*y
+    return x -> θ'x
+end
+
+function linear_regression(X::Vector{<:Vector}, y)
+    𝐗 = mapreduce(x->[1; x]', vcat, X)
     𝛉 = pinv(𝐗)*y
     return x -> 𝛉⋅[1; x]
 end
