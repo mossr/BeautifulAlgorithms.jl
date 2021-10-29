@@ -37,8 +37,7 @@ using Distributions
     # Full parameters
     θ = (φ=φ̂, μ=μ̂, Σ=Σ̂)
 
-    classify(xᵢ, θ) = argmax([pdf(MvNormal(θ.μ[j], θ.Σ[j]), xᵢ) for j in 1:length(θ.μ)])
-
+    # Run EM algorithm
     θ = em_algorithm(x, θ)
     ŷ = map(xᵢ -> classify(xᵢ, θ), x)
     accuracy = sum(y .== ŷ) / length(y)
