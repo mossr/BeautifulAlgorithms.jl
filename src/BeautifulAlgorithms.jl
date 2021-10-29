@@ -33,6 +33,9 @@ include("em_algorithm.jl")
 export linear_regression
 include("linear_regression.jl")
 
+export ridge_regression
+include("ridge_regression.jl")
+
 export radial_basis_regression
 include("radial_basis_regression.jl")
 
