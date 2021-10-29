@@ -25,6 +25,7 @@ Algorithms for machine learning, optimization, reinforcement learning, online pl
 - [The EM algorithm](#the-em-algorithm)
 - [Linear regression](#linear-regression)
 - [Ridge regression](#ridge-regression)
+- [Basis regression](#basis-regression)
 - [Radial basis regression](#radial-basis-regression)
 - [Cross-entropy method](#cross-entropy-method)
 - [Finite difference methods](#finite-difference-methods)
@@ -103,6 +104,11 @@ Mykel J. Kochenderfer and Tim A. Wheeler, *Algorithms for Optimization*, MIT Pre
 
 ## Ridge regression
 <p align="center"><a href="./src/ridge_regression.jl"> <img src="./img/png/ridge_regression.png"></a></p>
+
+
+## Basis regression
+Mykel J. Kochenderfer and Tim A. Wheeler, *Algorithms for Optimization*, MIT Press, 2019.
+<p align="center"><a href="./src/basis_regression.jl"> <img src="./img/png/basis_regression.png"></a></p>
 
 
 ## Radial basis regression
