@@ -38,7 +38,7 @@ using Distributions
     θ = (φ=φ̂, μ=μ̂, Σ=Σ̂)
 
     # Run EM algorithm
-    θ = em_algorithm(x, θ)
+    θ = em_algorithm!(x, θ)
     ŷ = map(xᵢ -> classify(xᵢ, θ), x)
     accuracy = sum(y .== ŷ) / length(y)
 

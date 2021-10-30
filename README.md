@@ -24,6 +24,7 @@ Algorithms for machine learning, optimization, reinforcement learning, online pl
 - [K-means clustering](#k-means-clustering)
 - [The EM algorithm](#the-em-algorithm)
 - [Linear regression](#linear-regression)
+    - [Linear regression (one-liner)](#linear-regression-one-liner)
 - [Ridge regression](#ridge-regression)
 - [Basis regression](#basis-regression)
 - [Radial basis regression](#radial-basis-regression)
@@ -100,6 +101,10 @@ Andrew Ng, *Mixtures of Gaussians and the EM algorithm*, Stanford University, 20
 ## Linear regression
 Mykel J. Kochenderfer and Tim A. Wheeler, *Algorithms for Optimization*, MIT Press, 2019.
 <p align="center"><a href="./src/linear_regression.jl"> <img src="./img/png/linear_regression.png"></a></p>
+
+
+##### Linear regression (one-liner)
+<p align="center"><a href="./src/linear_regression_one_liner.jl"> <img src="./img/png/linear_regression_one_liner.png"></a></p>
 
 
 ## Ridge regression

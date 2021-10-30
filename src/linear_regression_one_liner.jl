@@ -1,0 +1,1 @@
+linear_regression(X, y, 𝐗=mapreduce(x->[1;x]', vcat, X), θ=𝐗\y) = x -> [1;x]'θ

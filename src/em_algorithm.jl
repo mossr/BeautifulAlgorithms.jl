@@ -25,7 +25,7 @@ function m_step!(θ, w, x)
     return θ
 end
 
-function em_algorithm(x, θ; tol=eps(Float32))
+function em_algorithm!(x, θ; tol=eps(Float32))
     while true
         θ₋₁ = deepcopy(θ)
         w = e_step(θ, x)
