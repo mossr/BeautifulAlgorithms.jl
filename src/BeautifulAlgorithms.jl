@@ -42,6 +42,9 @@ include("basis_regression.jl")
 export radial_basis_regression
 include("radial_basis_regression.jl")
 
+export logistic_regression, predict
+include("logistic_regression.jl")
+
 export cross_entropy_method
 include("cross_entropy_method.jl")
 

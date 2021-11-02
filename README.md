@@ -28,6 +28,7 @@ Algorithms for machine learning, optimization, reinforcement learning, online pl
 - [Ridge regression](#ridge-regression)
 - [Basis regression](#basis-regression)
 - [Radial basis regression](#radial-basis-regression)
+- [Logistic regression](#logistic-regression)
 - [Cross-entropy method](#cross-entropy-method)
 - [Finite difference methods](#finite-difference-methods)
 - [Simulated annealing](#simulated-annealing)
@@ -119,6 +120,10 @@ Mykel J. Kochenderfer and Tim A. Wheeler, *Algorithms for Optimization*, MIT Pre
 ## Radial basis regression
 Mykel J. Kochenderfer and Tim A. Wheeler, *Algorithms for Optimization*, MIT Press, 2019.
 <p align="center"><a href="./src/radial_basis_regression.jl"> <img src="./img/png/radial_basis_regression.png"></a></p>
+
+
+## Logistic regression
+<p align="center"><a href="./src/logistic_regression.jl"> <img src="./img/png/logistic_regression.png"></a></p>
 
 
 ## Cross-entropy method
