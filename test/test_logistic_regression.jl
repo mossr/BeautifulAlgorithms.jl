@@ -1,4 +1,5 @@
 using Distributions
+using Random
 
 @testset "Logistic regression" begin
     Random.seed!(0)
