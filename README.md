@@ -100,7 +100,7 @@ Andrew Ng, *Mixtures of Gaussians and the EM algorithm*, Stanford University, 20
 
 
 ## Linear regression
-Mykel J. Kochenderfer and Tim A. Wheeler, *Algorithms for Optimization*, MIT Press, 2019.
+Mykel J. Kochenderfer and Tim A. Wheeler, *Algorithms for Optimization*, MIT Press, 2019. (Credit [@HenriDeh](https://github.com/HenriDeh) for use of `ones`)
 <p align="center"><a href="./src/linear_regression.jl"> <img src="./img/png/linear_regression.png"></a></p>
 
 
