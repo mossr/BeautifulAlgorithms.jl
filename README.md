@@ -142,7 +142,7 @@ Mykel J. Kochenderfer and Tim A. Wheeler, *Algorithms for Optimization*, MIT Pre
 
 
 ## Twiddle
-Sebatian Thurn, *Artificial Intelligence for Robotics*, Udacity, 2012.
+Sebatian Thrun, *Artificial Intelligence for Robotics*, Udacity, 2012.
 <p align="center"><a href="./src/twiddle.jl"> <img src="./img/png/twiddle.png"></a></p>
 
 
