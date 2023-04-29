@@ -6,7 +6,7 @@ Concise algorithms written in Julia and formatted with [Carbon](https://carbon.n
 
 Algorithms for machine learning, optimization, reinforcement learning, online planning, decision making under uncertainty, and sorting. All implementations are working and self-contained; refer to the [test cases](./test/).
 
-> _Note, these are primarily for academic purposes and are not designed for real-world usage. There are many other Julia packages that implement more sound versons of these algorithms._
+> _Note, these are primarily for academic purposes and are not designed for real-world usage. There are many other Julia packages that implement more sound versions of these algorithms._
 
 ```julia
 ] add http://github.com/mossr/BeautifulAlgorithms.jl
