@@ -218,7 +218,7 @@ Karey Shi, *Design and Analysis of Algorithms*, Stanford University, 2020.
 
 ## Quine
 Nathan Daly, *Julia Discord*, 2019.<sup><a href="https://discourse.julialang.org/t/quines-and-loons-self-replicating-programs/12607/7" target="_blank">2</a></sup>
-<p align="center"><a href="./src/quine.jl"> <img src="./img/png/quine.png"></a></p>
+<p align="center"><a href="./src/quine.jl"><img src="./img/png/quine.png"></a></p>
 
 ---
 
